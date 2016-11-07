@@ -1,0 +1,24 @@
+{
+  "name": "telegram-bot-boilerplate",
+  "version": "1.0.0",
+  "description": "telegram-bot-boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kcbleeker/telegram-bot-boilerplate.git"
+  },
+  "keywords": [
+    "telegram",
+    "bot"
+  ],
+  "author": "kcbleeker",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/kcbleeker/telegram-bot-boilerplate#readme",
+  "devDependencies": {
+    "fs": "0.0.1-security",
+    "node-telegram-bot-api": "^0.24.0"
+  }
+}
