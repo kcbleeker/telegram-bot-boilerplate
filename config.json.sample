@@ -1,3 +1,5 @@
 {
-	"Telegram_token": ""
+	"Telegram_token": "",
+	"owner_id": "",
+	"users": []
 }

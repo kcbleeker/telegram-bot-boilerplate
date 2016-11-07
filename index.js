@@ -7,7 +7,8 @@ var config = JSON.parse(fs.readFileSync("config.json"));
 var bot = new TelegramBot(config["Telegram_token"], { polling: true });
 //add additional contexts to be passed to controllers here
 var contexts = {
-	bot: bot
+	bot: bot,
+	config: config
 };
 
 //incoming telegram command
